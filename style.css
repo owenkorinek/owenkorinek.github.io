@@ -1,26 +1,14 @@
 h1
     {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
-    background-color:rgb(12, 74, 113);
-    padding: 15px 0px 15px 17px;
-        
+    background-color:rgb(0, 0, 0);
+    padding: 10px 0px 10px 10px;
 }
-
-h3
-    {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:rgb(12, 74, 113);
-    color:white;
-    width:620px;
-    padding:20px;
-    margin: 15px 1px 4px 1px;
-}
-
-body {background-color: rgba(66, 133, 172, 0.603);
+body {background-color: rgba(57, 54, 51, 0.979);
 }
 
 img 
     {border: 6px solid black ;
-    
 }
 
 a
@@ -30,12 +18,11 @@ a
     padding:8px 8px 8px 8px;
     width:620px;
 }
-
 a.pseudo:visited 
-    {color:black;}
+    {color:rgb(255, 255, 255);}
 
 a.pseudo:hover
-    {color:rgb(2, 255, 2);}
+    {color:rgb(168, 5, 5);}
 
 a.pseudo:active 
     {color:black;}
@@ -44,34 +31,31 @@ nav.sticky
     {position:sticky;
     top:0px;
     padding:10px;
-    background-color:lightslategray;
+    background-color:rgba(95, 89, 83, 0.979);
     border: 1px solid gray;}
 
-p
+p.foot
     {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
-    background-color:  rgb(12, 74, 113);
-    color:white;
+    color:rgb(0, 0, 0);
     width:620px;
     padding:20px;
     margin: 15px 1px 4px 1px;
+    background-color:#eee;
+    position: relative;
+    width: 90%;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, 0);
 }
-
 p:hover
-    {background-color:rgb(160, 80, 226);
+    {background-color:rgb(159, 159, 159);
 }
-
 .button1:hover
-    {color:white;
-    background-color:black;
+    {color:rgb(23, 58, 196);
 }
-
-div.sno
-    {position:absolute;
-    top: 252px;
-    left: 900px;
-}
-
 #snow {
     animation-name: colorful;
     animation-duration: 3s;
@@ -80,28 +64,56 @@ div.sno
     animation-direction: alternate-reverse;
     animation-timing-function: ease-in;
 }
-
-  
   @keyframes colorful {
     0% {
-      background-color: rgb(255, 0, 0);
+      background-color: rgb(0, 0, 0);
     }
     25%{
-        background-color: rgb(255, 208, 0);
+        background-color: rgb(51, 51, 51);
     }
     75%{
-        background-color: rgb(0, 255, 76);
+        background-color: rgb(0, 0, 0);
     }
     100% {
-      background-color: rgb(12, 74, 113);
+      background-color: rgb(51, 51, 51);
     }
   }
-
 #yessir {
     position:absolute;
     top: 1050px;
     left: 897px;
 }
+.centered {
+    background-color: rgb(250, 240, 223);
+    position: relative;
+    width: 90%;
+    text-align: center;
+    top: 5%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, 0);
+}
+    h4  {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.img1 {
+    padding:40px;
+   background-color: rgb(51, 51, 51);
+   
+}
+.gallery {
+    background-color: black;
+    padding:20px;
+}
+
+h2
+    {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+    }
+
+
+
+
+
+
 
 
 
@@ -122,6 +134,16 @@ div.sno
 
 
     /*
+h3
+    {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(12, 74, 113);
+    color:white;
+    width:620px;
+    padding:20px;
+    margin: 15px 1px 4px 1px;
+}
+
+
 a.pseudo:visited 
     {color:black;}
 
